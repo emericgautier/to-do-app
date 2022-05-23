@@ -26,6 +26,7 @@
 
 <body>
 
+    <!-- The div with an id addNew is the button that will open the modal. The span will be displayed on the button. The i is the icon from font-awesome.-->
     <div class="app">
         <h4 class="mb-3">TODO App</h4>
 
@@ -34,11 +35,12 @@
             <i class="fas fa-plus"></i>
         </div>
 
-
+        <!-- To see the created tasks, we'll use a div with an id tasks, inside the div with the classname app -->
         <h5 class="text-center my-3">Tasks</h5>
         <div id="tasks"></div>
 
         <!-- Modal -->
+        <!-- code from the bootstrap modal. It carries a form with 3 input fields and a submit button. -->
         <form class="modal fade" id="form" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
